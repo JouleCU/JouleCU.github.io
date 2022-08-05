@@ -3,11 +3,44 @@ body{
     margin: 0px;
     padding:0px;
     color:white;
+    font-family: 'Verdana';
+    
+  }
+  footer{
+    color: gray;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
+  .banner {
+    font-size: 50px;
+    font-weight: normal;
+    margin: 15px 0px;
   }
   a {
     color:aqua;
   }
+  .description{
+    display: inline-block;
+    width: 70%;
+  }
 
+  .description p{
+    color: gray;
+    font-size: 21px;
+  }
+  
+  .content h2{
+    font-weight: 300;
+    font-size: 42px;
+  }
   *{
     text-align: center;
     }
+  .campfire{
+    margin-bottom: 10px;
+  }
+  .content{
+    margin-top: 10px;
+  }
